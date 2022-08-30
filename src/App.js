@@ -1,7 +1,7 @@
 import './App.css';
 import HomePage from './pages/HomePage';
 import {
-  BrowserRouter as Router,
+  BrowserRouter,
   Route
 } from 'react-router-dom';
 import { ScatterGeoFrag } from './pages/ScatterGeo';
@@ -13,16 +13,15 @@ import News from './pages/News/News';
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter>
       <div className="App">
         <Route path="/" component={HomePage} exact />
-        <header>Text Field Tester </header>
-        <br></br>
         <header>News </header>
         <br></br>
         <News/>
+        <Route path="/SimpleMap" component={SimpleMap} exact />
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
