@@ -2,7 +2,6 @@ import {
     createTheme,
     Checkbox,
     DefaultButton,
-    Fabric,
     Pivot,
     PivotItem,
     PrimaryButton,

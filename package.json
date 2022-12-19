@@ -12,13 +12,13 @@
     "@types/node": "^17.0.24",
     "@types/react": "^18.0.5",
     "@types/react-dom": "^18.0.1",
+    "@uifabric/merge-styles": "^7.20.0",
     "google-map-react": "^2.1.10",
     "google-maps-react": "^2.0.6",
     "react": "^17.0.2",
     "react-d3-library": "^1.1.8",
     "react-dom": "^17.0.2",
     "react-geojson": "^1.5.4",
-    "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "typescript": "^4.6.3",
     "web-vitals": "^1.1.2"
@@ -48,6 +48,7 @@
     ]
   },
   "devDependencies": {
-    "@types/react-router-dom": "^5.3.3"
+    "@types/react-router-dom": "^5.3.3",
+    "react-router-dom": "^6.4.0"
   }
 }

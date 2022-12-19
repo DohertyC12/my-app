@@ -13,7 +13,6 @@ export const ThemeProviders: React.FC<ThemeProvidersProps> = props => {
         <div className="Theme">
             <ThemeProvider theme={myTheme}>
             </ThemeProvider>
-
         </div>
     )
 };
